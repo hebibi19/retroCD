@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+  background-color: #FFF3B0;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #FFF3B0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #335C67;
+  font-weight: bolder;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.title{
+  background-color: #E09F3E;
+  width: 600px;
+  height: 60px;
+}
+
+footer {
+  align-items: center;
+  text-align: center;
+  background-color: #E09F3E;
+  color: #335C67;
+  font-weight: bolder;
+  text-anchor: middle;
+  padding: 6px;
+
+}
+
+.artistMove {
+  margin: 95px 395px 0px 0px;
+  text-align: center;
+  color: #FFF3B0;
+  font-size: 18px;
+  font-family: 'Rubik Bubbles';
+  
+}
+
+.tracksMove {
+  margin: 80px 40px 0px 0px;
+  text-align: center;
+  color: #FFF3B0;
+  font-size: 14px;
+  font-family: 'Rubik Bubbles';
+  
+}
+
+.front {
+  margin: 30px 0px 0px 0px;
+}
+
+.nameMoveF {
+  margin: 180px 0px 0px 185px;
+  color: #FFF3B0;
+  font-size: 30px;
+  font-family: 'Rubik Bubbles';
+  background-color: #540B0E;
+  width: 380px;
+  justify-content: baseline;
+}
+
+.nameMoveIn {
+  padding-bottom: 300px;
+  font-weight: bolder;
+  color: #FFF3B0;
+}
+
+.button {
+  color: #FFF3B0;
+  background-color: #335C67;
+  width: 150px;
+  height: 30px;
+  font-family: 'Rubik Bubbles';
+
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
